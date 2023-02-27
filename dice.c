@@ -10,5 +10,6 @@ int main(){
         n = rand() % 6 + 1;
         printf("%d ",n);
     }
+    printf("\n");
     // dziaa
 }
