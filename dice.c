@@ -10,6 +10,10 @@ int main(){
         n = rand() % 6 + 1;
         printf("%d ",n);
     }
+<<<<<<< HEAD
+		printf("\n");
+=======
     printf("\n");
+>>>>>>> refs/remotes/origin/main
     // dziaa
 }
