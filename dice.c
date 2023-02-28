@@ -3,13 +3,10 @@
 #include <time.h>
 
 int main(int argc, char *argv[]){
-	int n, d;
 	char *ptr;
-
-	if(argc==1)
-		n = 5;
-	else
-		n = strtol(argv[1], &ptr, 10);
+	int	d, n = strtol(argv[1], &ptr, 10);
+	
+	//dodaj warunki TU
 
     srand(time(NULL));
 
